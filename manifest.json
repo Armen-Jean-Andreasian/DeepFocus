@@ -1,12 +1,9 @@
 {
   "name": "FocusGuard",
-  "version": {
-    "license": "LICENSE.md"
-  },
+  "version": "1.0",
   "description": "Blocks distracting websites and helps you stay focused.",
   "manifest_version": 3,
 
-  "privacy_policy": "./PRIVACY.md",
   "developer": {
     "name": "Armen-Jean Andreasian",
     "url": "https://yourdomain.com"
