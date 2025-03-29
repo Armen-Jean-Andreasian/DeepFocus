@@ -4,12 +4,6 @@
   "version": "1.0",
   "description": "Blocks distracting websites and helps you stay focused.",
 
-  "licenses": [
-    {
-      "type": "custom_license",
-      "url": "LICENSE.md"
-    }
-  ],
   "privacy_policy": "./PRIVACY.md",
   "developer": {
     "name": "Armen-Jean Andreasian",
