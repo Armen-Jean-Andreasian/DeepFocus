@@ -1,0 +1,89 @@
+/* popup.css */
+body {
+    background-color: #0a0a12;
+    color: #00f3ff;
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    padding: 10px;
+    width: 200px;
+    height: 150px;
+    border: 1px solid #ff00ff;
+    box-shadow: 0 0 15px #ff00ff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+h1 {
+    color: #ff00ff;
+    text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+
+#status {
+    color: #00f3ff;
+    text-shadow: 0 0 5px #00f3ff;
+    font-weight: bold;
+}
+
+#toggleButton {
+    background-color: transparent;
+    color: #00f3ff;
+    border: 2px solid #00f3ff;
+    padding: 8px 15px;
+    margin: 10px 0;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 0 10px #00f3ff, inset 0 0 5px #00f3ff;
+}
+
+#toggleButton:hover {
+    background-color: rgba(0, 243, 255, 0.2);
+    box-shadow: 0 0 15px #00f3ff, inset 0 0 10px #00f3ff;
+    transform: scale(1.05);
+}
+
+a {
+    color: #ff00ff;
+    text-decoration: none;
+    font-size: 0.8em;
+    margin-top: 10px;
+    text-shadow: 0 0 5px #ff00ff;
+    transition: all 0.3s ease;
+    border-bottom: 1px dashed #ff00ff;
+    padding-bottom: 2px;
+}
+
+a:hover {
+    color: #00f3ff;
+    text-shadow: 0 0 10px #00f3ff;
+    border-bottom-color: #00f3ff;
+}
+
+/* Cyberpunk scanline effect */
+body::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+            rgba(10, 10, 18, 0.8) 50%,
+            rgba(0, 243, 255, 0.05) 50%
+    );
+    background-size: 100% 4px;
+    pointer-events: none;
+    opacity: 0.3;
+}

@@ -3,6 +3,14 @@
   "name": "FocusGuard",
   "version": "1.0",
   "description": "Blocks distracting websites and helps you stay focused.",
+
+  "applications": {
+    "gecko": {
+      "id": "focusguard@armenjeanandreasian",
+      "strict_min_version": "109.0"
+    }
+  },
+
   "icons": {
     "16": "bin/icon/icons/icon-16.png",
     "48": "bin/icon/icons/icon-48.png",

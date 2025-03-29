@@ -10,7 +10,7 @@ chrome.webNavigation.onBeforeNavigate.addListener((details) => {
         // Check if site is blacklisted
         if (blockedSites.some(site => domain.includes(site))) {
             chrome.tabs.update(details.tabId, {
-                url: chrome.runtime.getURL("blocked.html") // Redirect to block page
+                url: chrome.runtime.getURL("blocked/blocked.html") // Redirect to block page
             });
         }
     });
