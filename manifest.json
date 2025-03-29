@@ -4,6 +4,13 @@
   "version": "1.0",
   "description": "Blocks distracting websites and helps you stay focused.",
 
+  "license": "./LICENSE.md",
+  "privacy_policy": "./PRIVACY.md",
+  "developer": {
+    "name": "Armen-Jean Andreasian",
+    "url": "https://yourdomain.com"
+  },
+
   "browser_specific_settings": {
     "gecko": {
       "id": "focusguard@armenjeanandreasian",
