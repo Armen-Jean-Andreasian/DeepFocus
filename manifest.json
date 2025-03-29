@@ -4,7 +4,7 @@
   "version": "1.0",
   "description": "Blocks distracting websites and helps you stay focused.",
 
-  "applications": {
+  "browser_specific_settings": {
     "gecko": {
       "id": "focusguard@armenjeanandreasian",
       "strict_min_version": "109.0"
