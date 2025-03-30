@@ -1,13 +1,39 @@
 import shutil
 
-browser =  "Chrome"
+# Chrome
+# Firefox
+
+
+browser =  "Firefox"
 # ======================================================================================================================
 OUTPUT_MANIFEST_PATH = "manifest.json"
 
 zip_output = f"{browser}.zip"
 ignored_files = {
-    ".github", ".idea", ".git", ".gitignore", "zipper.py", zip_output, 'manifests', 'for_dev', 'dev.py',
-    '*.jpg', '*.tmp', '__pycache__', 'Chrome.zip', 'Firefox.zip'
+    # folders
+    ".github",
+    ".idea",
+    ".git",
+    'for_dev',
+
+    # trash
+    '__pycache__',
+    '*.jpg',
+    '*.tmp'
+
+    # files
+    ".gitignore",
+    'dev.py',
+
+    # zip archives
+    "Firefox.zip",
+    "Chrome.zip",
+
+    # others
+    'bin/audio',
+    'bin/screenshots',
+    'bin/video',
+    'bin/intro',
 }
 
 if browser == 'Chrome':
