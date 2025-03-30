@@ -1,4 +1,4 @@
-# Privacy Policy for FocusGuard
+# Privacy Policy for DeepFocus
 
 ## Data Collection
 Zero data collection:

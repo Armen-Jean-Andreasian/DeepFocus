@@ -37,13 +37,22 @@ document.addEventListener("DOMContentLoaded", () => {
     // Render blacklist
     function loadBlacklist() {
         chrome.storage.sync.get("blacklist", (data) => {
-            blacklistElement.innerHTML = "";
+            blacklistElement.innerHTML = ""; // This is safe (clearing only)
             (data.blacklist || []).forEach(site => {
                 const li = document.createElement("li");
-                li.innerHTML = `
-          ${site} 
-          <button class="delete-btn" data-site="${site}">Remove</button>
-        `;
+
+                // Safe text content
+                const siteText = document.createTextNode(site + " ");
+
+                // Safe button creation
+                const button = document.createElement("button");
+                button.className = "delete-btn";
+                button.textContent = "Remove";
+                button.dataset.site = site;
+
+                // Build DOM safely
+                li.appendChild(siteText);
+                li.appendChild(button);
                 blacklistElement.appendChild(li);
             });
         });

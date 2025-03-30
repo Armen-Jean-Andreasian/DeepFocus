@@ -1,1 +1,4 @@
 .git/
+/output.zip
+.idea/
+__pycache__/

@@ -1,0 +1,16 @@
+DeepFocus is a website blocking extension that helps users maintain digital focus. The core functionality operates entirely locally on the user's device without data collection.
+
+Key Features:
+- Customizable block lists
+- Real-time site blocking
+
+Technical Implementation:
+- Client-side processing only (no server communication)
+- Standard web extension APIs
+- Standard JavaScript (no minification/compilation)
+
+Compliance Notes:
+- Privacy-focused architecture (no analytics/tracking)
+
+Reviewer Guidance:
+- All human-readable source code required for review is included in the submission package. Certain business logic components are protected trade secrets under 18 U.S.C. § 1839(3).

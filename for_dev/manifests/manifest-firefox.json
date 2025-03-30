@@ -1,0 +1,46 @@
+{
+  "name": "DeepFocus",
+  "version": "1.0",
+  "description": "Blocks distracting websites and helps you stay focused.",
+  "manifest_version": 3,
+
+  "developer": {
+    "name": "Armen-Jean Andreasian",
+    "url": "https://github.com/Armen-Jean-Andreasian"
+  },
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "deepfocus@armenjeanandreasian",
+      "strict_min_version": "109.0"
+    }
+  },
+
+  "icons": {
+    "16": "bin/icon/icons/icon-16.png",
+    "48": "bin/icon/icons/icon-48.png",
+    "128": "bin/icon/icons/icon-128.png"
+  },
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "19": "bin/icon/action/icon-19.png",
+      "38": "bin/icon/action/icon-38.png"
+    }
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "options_ui": {
+    "page": "options/options.html",
+    "open_in_tab": false
+  },
+  "permissions": [
+    "webNavigation",
+    "storage",
+    "tabs"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}

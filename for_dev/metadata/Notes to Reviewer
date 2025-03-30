@@ -1,0 +1,17 @@
+Code Structure
+- All human-readable source code required for functionality review is included
+- Core blocking logic implemented via standard WebExtension APIs
+
+Privacy Compliance
+- Zero data collection (verified in privacy policy)
+
+Proprietary Components
+- Contains protected business logic under 18 U.S.C. § 1839(3)
+
+Full functionality can be validated via:
+- Options UI (settings management)
+- Popup interface (basic operations)
+
+Build Process
+- No minifiers or code generators used
+- Concatenated files maintain human readability
