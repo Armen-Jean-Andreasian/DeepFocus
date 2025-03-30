@@ -1,6 +1,6 @@
 import shutil
 
-browser =  "Chrome" # "Firefox"
+browser =  "Chrome"
 # ======================================================================================================================
 OUTPUT_MANIFEST_PATH = "manifest.json"
 
