@@ -4,7 +4,7 @@ import shutil
 # Firefox
 
 
-browser =  "Firefox"
+browser =  "Chrome"
 # ======================================================================================================================
 OUTPUT_MANIFEST_PATH = "manifest.json"
 
@@ -24,6 +24,9 @@ ignored_files = {
     # files
     ".gitignore",
     'dev.py',
+    "LICENSE.md",
+    "PRIVACY.md",
+    "README.md",
 
     # zip archives
     "Firefox.zip",
