@@ -1,0 +1,6 @@
+Mozilla
+
+- My addons in store: https://addons.mozilla.org/en-US/developers/
+- Debugging: about:debugging#/runtime/this-firefox
+
+
