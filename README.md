@@ -9,9 +9,9 @@ No motivational speechs.
 FocusGuard is a browser extension that blocks distracting websites and helps you stay focused once you study or work.
 
 
-Step 1. List your time-wasting sites
+Step 1. Flip the switch
 
-Step 2: Flip the switch
+Step 2: List your time-wasting sites
 
 Step 3: Try to procrastinate → See a beautiful synth-wave banner reminding to get back to work.
 
