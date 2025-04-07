@@ -1,65 +1,38 @@
-My new solo-developer's project: DeepFocus
+## Introduction
+
+Usually the distraction looks the same: you have done some part of the job, it's time to have a break. You open YouTube, TikTok, Facebook and you are gone for hours.
+
+Deep Focus won't let that happen again.
+
+It helps you fight doomscrolling and procrastination. It's made to keep you focused on the job, free from distractions.
 
 
-No willpower needed.
+---
+## How it works
 
-No motivational speechs.
+1️⃣ Add the distracting websites to a blacklist. Any website may be added: Facebook, LinkedIn, etc. Simply type "facebook.com" and press "Add." Your blacklisted websites are stored in your browser.
 
+2️⃣ Click the "Enable" button to switch the application to active mode. From now on, whenever you try to access those sources, you'll see a banner reminding you to get back to work.
 
-FocusGuard is a browser extension that blocks distracting websites and helps you stay focused once you study or work.
+3️⃣ Once the job is done, click on the "Disable" button to switch the extension back to passive mode. Now you're free to enjoy your favorite websites.
 
+---
+## Technical details
 
-Step 1. Flip the switch
+- **Privacy-focused architecture** (no analytics, tracking, or data collection)
+- **Entirely client-side processing** (no server communication). Your browser uses local storage to store the blacklisted websites.
+- **Browser-level blocking**. No mess with your operating system or router. The blacklisted websites remain completely accessible for your device and in your network - they are just hidden solely for the browser where the extension is active.
 
-Step 2: List your time-wasting sites
+---
+## Get it now
 
-Step 3: Try to procrastinate → See a beautiful synth-wave banner reminding to get back to work.
+Mozilla: https://addons.mozilla.org/en-US/firefox/addon/deepfocus/
 
-
-Entire extension is done in beautiful synth-wave styling.
-
-
-Privacy Policy.
-
-
-Zero data collection:
-
-- No personal information
-
-- No tracking/analytics
-
-- No external data storage
-
-
-- 100% local operations
-
--
-
-
-
-#NoExcuses #FocusOrFail #SoloDev #SoftwareDevelopment
-
-
-# Privacy Policy for DeepFocus
-
-## Data Collection
-Zero data collection:
-- No personal information
-- No tracking/analytics
-- No external data storage
-
-## Payments
-- Supporter features use third-party processors (Stripe/Paddle)
-- Extension never handles payment data
-- Transactions governed by processor's policies
-
-## Technical
-- 100% local operation
-- Mozilla servers for updates only
-- Closed-source proprietary software
-- Browser-level implementation, which means the websites are not actually blocked, you just get redirected to a custom banner. Whenever, you turn off the extension, you are free to use them. No DNS or reverse proxies. I think this is important for most of non-tech people.
-
-
+---
 ## Legal
 © Armen-Jean Andreasian 2024. All rights reserved.
 Violations will be prosecuted.
+
+
+---
+#Productivity #BrowserExtension #StopProcrastination #TimeManagement #DigitalWellbeing #Doomscrolling
